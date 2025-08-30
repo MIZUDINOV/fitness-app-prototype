@@ -6,6 +6,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Home());
+    return MaterialApp(
+      theme: ThemeData.from(colorScheme: ColorScheme.light()),
+      home: Home());
   }
 }

@@ -6,7 +6,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(title: const Text('Главная')),
+      appBar: AppBar(title: const Text('Главная')),
       body: Container(
         width: double.infinity,
         child: Column(
